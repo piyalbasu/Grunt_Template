@@ -1,0 +1,29 @@
+{
+	"name": "Site",
+	"version": "0.1.0",
+	"description": "Site templates",
+
+	"private": true,
+
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+
+	"devDependencies": {
+		"grunt": "~0.4.2",
+		"matchdep": "~0.3.0",
+		"grunt-contrib-concat": "~0.3.0",
+		"grunt-contrib-copy": "~0.5.0",
+		"grunt-contrib-sass": "~0.7.2",
+		"grunt-contrib-uglify": "~0.4.0",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-smushit": "~1.2.1",
+		"grunt-includes": "~0.4.0"
+	},
+
+	"scripts": {
+		"build": "grunt"
+	}
+
+}
